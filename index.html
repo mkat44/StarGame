@@ -20,57 +20,71 @@
     <div class="container" id="spaceshuttle">
         <div class="row" id="startgame">
             <div class="col-md-2"></div>
-            <div class="col-md-2" id="option" value="cetus">
+            <div class="col-md-2 option" value="Cetus">
                 <img src="assets/images/cetus_nebula.jpg" class="img-fluid choice">
                 <button type="button" class="btn btnchoice">Whale</button>
             </div>
-            <div class="col-md-2" id="option" value="cygnus">
+            <div class="col-md-2 option" value="Cygnus">
                 <img src="assets/images/cygnus_central.jpg" class="img-fluid choice">
                 <button type="button" class="btn btnchoice">Swan</button>
             </div>
-            <div class="col-md-2" id="option" value="centaurus">
+            <div class="col-md-2 option" value="Centaurus">
                 <img src="assets/images/centaurus_nebula.jpg" class="img-fluid choice">
                 <button type="button" class="btn btnchoice">Centaur</button>
             </div>
-            <div class="col-md-2" id="option" value="monoceros">
+            <div class="col-md-2 option" value="Monoceros">
                 <img src="assets/images/monoceros_rosette.jpg" class="img-fluid choice">
                 <button type="button" class="btn btnchoice">Unicorn</button>
             </div>
             <div class="col-md-2"></div>
         </div>
-        <div class="row" id="windshield">
-            <div class="col-md-1"></div>
-            <div class="col-md-10">
-                <img src="assets/images/nightsky.jpg" class="img-fluid rounded" id="placeholderimage">
+        <div class="row" id="variablepanel">
+            <div class="col-md-8" id="viewfinder">
+                    <img src="assets/images/cygnus_tulipnebula.jpg" class="img-fluid rounded" id="placeholderimage2">
             </div>
-            <div class="col-md-1"></div>
+            <div class="col-md-4">
+                <div class="row">
+                    <div class="col-md-12">
+                        <strong>Fuel Remaining:</strong> <h4 class="fuelremaining"></h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <strong>Life Support Remaining:</strong> <h4 class="lifesupporttimer"></h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <strong>Current Score:</strong> <h4 class="currentscorekeeper"></h4>
+                    </div>
+                </div>
+            </div>
         </div>
         <hr>
         <div class="row">
-            <div class="col-md-5" id="viewfinder">
-                    <img src="assets/images/cygnus_tulipnebula.jpg" class="img-fluid rounded" id="placeholderimage2">
+            <div class="col-md-4">
+                <div class="col-md-4" id="navigation">
+                    <div class="row" id="button-navs">
+                        <div class="col-md-4"></div>
+                        <div class="col-md-4">
+                            <button class="btn btn-default btn-lg up-button"><span class="fa fa-arrow-up"></span></button>
+                        </div>
+                        <div class="col-md-4"></div>
+                    </div>
+                    <div class="row" id="button-navs">
+                        <div class="col-md-4">
+                            <button class="btn btn-default btn-lg left-button"><span class="fa fa-arrow-left"></span></button>
+                        </div>
+                        <div class="col-md-4">
+                            <button class="btn btn-default btn-lg down-button"><span class="fa fa-arrow-down"></span></button>
+                        </div>
+                        <div class="col-md-4">
+                            <button class="btn btn-default btn-lg right-button"><span class="fa fa-arrow-right"></span></button>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-2" id="navigation">
-                <div class="row" id="button-navs">
-                    <div class="col-sm-4"></div>
-                    <div class="col-sm-4">
-                        <button class="btn btn-default btn-lg up-button"><span class="fa fa-arrow-up"></span></button>
-                    </div>
-                    <div class="col-sm-4"></div>
-                </div>
-                <div class="row" id="button-navs">
-                    <div class="col-sm-4">
-                        <button class="btn btn-default btn-lg left-button"><span class="fa fa-arrow-left"></span></button>
-                    </div>
-                    <div class="col-sm-4">
-                        <button class="btn btn-default btn-lg down-button"><span class="fa fa-arrow-down"></span></button>
-                    </div>
-                    <div class="col-sm-4">
-                        <button class="btn btn-default btn-lg right-button"><span class="fa fa-arrow-right"></span></button>
-                    </div>
-                </div>
-            </div> 
-            <div class="col-md-5" id="shiplog">
+            <div class="col-md-8" id="shiplog">
                 <div class="row">
                     <div class="col-md-12" id="system">
                         <h1 class="shipheading"></h1>
@@ -78,16 +92,6 @@
                     <div class="col-md-12" id="readouts"></div>
                         <p class="logreadouts"></p>
                 </div>
-            </div>
-        </div>
-        <hr>
-        <div class="row" id="variablepanel">
-            <div class="col-md-4" id="fuel">
-                <strong>Fuel Remaining:</strong> <h4 class="fuelremaining"></h4>
-            </div>
-            <div class="col-md-4"></div>
-            <div class="col-md-4 float-right" id="lifesupport">
-                <strong>Life Support Remaining:</strong> <h4 class="lifesupporttimer"></h4>
             </div>
         </div>
     </div>
