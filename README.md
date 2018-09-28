@@ -1,4 +1,4 @@
-# TriviaGame
+# StarGame
 jQuery &amp; Timers
 
 My first attempt and most of my time was spent trying to turn in something really cool.
